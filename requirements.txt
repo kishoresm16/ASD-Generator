@@ -1,0 +1,30 @@
+# Core dependencies
+python-whois>=0.8.0
+dnspython>=2.3.0
+requests>=2.31.0
+urllib3>=2.0.7
+colorama>=0.4.6
+
+# Web technology detection
+python-Wappalyzer>=0.3.1
+
+# SSL/Security
+pyOpenSSL>=23.2.0
+cryptography>=41.0.0
+
+# Concurrent execution
+futures>=3.0.5
+
+# DNS tools
+dnspython>=2.3.0
+
+# Date/Time handling
+pytz>=2023.3
+
+# Optional - for additional features
+shodan>=1.29.1  # If using Shodan integration
+python-owasp-zap-v2.4>=2.4.0  # If using OWASP ZAP integration
+
+# Development dependencies
+black>=23.9.1  # Code formatting
+flake8>=6.1.0  # Code linting
